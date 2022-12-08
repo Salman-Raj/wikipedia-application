@@ -77,8 +77,9 @@ only screen and (min-width:321px) and (max-width:768px)
 only screen and (min-width:769px)
 {
   .wiki-logo{
-    width:350px;
-    height:350px;
+    width:500px;
+    height:500px;
+    margin-bottom:25px;
     
   }
   .search-input{
