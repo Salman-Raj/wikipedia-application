@@ -54,11 +54,11 @@
 }
 
 #phone
-only screen and (max-width:320px)  or (orientation:portrait) {
+only screen and (max-width:320px)  {
   .wiki-logo {
     margin-bottom: 30px;
-    width: 100px;
-    height:100px;
+    width: 200px;
+    height:200px;
 }
   .search-input{
     font-size:30px;
