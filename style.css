@@ -53,9 +53,9 @@
   text-decoration: none;
 }
 
-@media screen and orientation:portrait{
+@media screen and (min-width:576px) and (max-width:767px){
   .main-container{
-  font-size:36px;
+  font-size:48px;
   }
   .wiki.logo{
         margin-bottom: 30px;
@@ -63,6 +63,14 @@
         height:150px;
     
   }
+  .search-input {
+  border-radius: 3px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid; 
+  border-color: #d5cdcd;
+  font-size: 30px;
+}
   
   
 }
@@ -70,8 +78,8 @@
 @media screen and (min-width:768px) {
     .wiki-logo {
         margin-bottom: 30px;
-        width: 150px;
-        height:150px;
+        width: 200px;
+        height:200px;
       }
 
 }
@@ -80,8 +88,8 @@
 @media screen and (max-width:576px) {
   .wiki-logo {
       margin-bottom: 30px;
-      width: 200px;
-      height:200px;
+      width: 300px;
+      height:300px;
     }
 
 }
@@ -89,8 +97,8 @@
 @media screen and(min-width:577px) (max-width:992px) {
   .wiki-logo {
       margin-bottom: 30px;
-      width: 300px;
-      height:300px;
+      width: 400px;
+      height:400px;
     }
 
 }
