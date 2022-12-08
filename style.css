@@ -53,4 +53,39 @@
   text-decoration: none;
 }
 
+#phone
+only screen and (max-width:320px)  or (orientation:portrait) {
+  .wiki-logo {
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+}
+  .search-input{
+    font-size:30px;
+    
+  }
+  
+}
+
+# Tablet
+only screen and (min-width:321px) and (max-width:768px)
+{
+  
+}
+
+# Desktop
+only screen and (min-width:769px)
+{
+  .wiki-logo{
+    width:350px;
+    height:350px;
+    
+  }
+  .search-input{
+    font-size:48px;
+    
+  }
+  
+}
+
 
